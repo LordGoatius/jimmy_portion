@@ -71,7 +71,7 @@ dependencies = [
 
 [[package]]
 name = "jimmy_portion"
-version = "0.1.2"
+version = "0.1.3"
 dependencies = [
  "itertools",
  "permutator",

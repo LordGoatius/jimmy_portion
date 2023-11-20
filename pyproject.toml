@@ -14,7 +14,3 @@ dynamic = ["version"]
 
 [tool.maturin]
 features = ["pyo3/extension-module"]
-
-[pypi]
-username = "__token__"
-password = "pypi-AgEIcHlwaS5vcmcCJGYxNzUwODkxLTIxNzAtNDQ3Ny1iYTY5LWU4YjM2NjQ5YTY2ZQACKlszLCIwMDU1YzM2OC0wY2UwLTQ4NjktOWJmYi0yZjVhN2RhNTRkYTYiXQAABiAT5ijgbWfOu-zyodjPammM2lWpi7yqPWC8vNvgDTnKKA"

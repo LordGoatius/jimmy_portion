@@ -1,5 +1,5 @@
 use std::collections::HashMap;
-use itertools::{iproduct, Itertools};
+use itertools::Itertools;
 use permutator::Combination;
 use petgraph::prelude::*;
 use pyo3::prelude::*;
