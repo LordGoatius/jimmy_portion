@@ -11,7 +11,7 @@ pub mod prod;
 /// Taken in a list of nodes and edges and prints a minimum coloring and returns a dict
 /// representing the graph 
 #[pyfunction]
-fn bf_chromo_coloring(nodes: Vec<usize>, edges: Vec<(usize, usize)>) -> PyResult<HashMap<usize, Vec<usize>>> {
+fn bf_chromo_coloring(nodes: Vec<usize>, edges: Vec<(usize, usize)>) -> PyResult<HashMap<usize, usize>> {
     let mut graph: UnGraphMap<usize, usize> = GraphMap::default();
     for node in nodes {
         graph.add_node(node);
@@ -21,15 +21,21 @@ fn bf_chromo_coloring(nodes: Vec<usize>, edges: Vec<(usize, usize)>) -> PyResult
         graph.add_edge(i, j, 1);
     }
 
-    let mut map: HashMap<usize, Vec<usize>> = HashMap::default();
+    //let mut map: HashMap<usize, Vec<usize>> = HashMap::default();
 
-    for node in graph.nodes() {
-        let neighbors: Vec<usize> = graph.neighbors(node).collect();
-        map.insert(node, neighbors);
-    }
+    //for node in graph.nodes() {
+    //    let neighbors: Vec<usize> = graph.neighbors(node).collect();
+    //    map.insert(node, neighbors);
+    //}
 
     let coloring = find_valid_coloring(&graph);
     println!("Valid Chromatic Coloring: {:?}", coloring);
+
+    let mut map: HashMap<usize, usize> = HashMap::default();
+
+    for (i, color) in coloring.iter().enumerate() {
+        map.insert(i as usize, *color);
+    }
 
     Ok(map)
 }
@@ -76,7 +82,7 @@ fn find_valid_coloring(graph: &UnGraphMap<usize, usize>) -> Vec<usize> {
 
     let max_clique = find_max_clique_num(graph);
 
-    println!("Brooks: {brooks_number}\nMax Clique: {max_clique}");
+    //println!("Brooks: {brooks_number}\nMax Clique: {max_clique}");
 
     for i in max_clique..=brooks_number {
         let colorable = is_graph_x_colorable(i, graph);
