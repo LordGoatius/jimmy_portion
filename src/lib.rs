@@ -9,7 +9,7 @@ use crate::prod::CartesianProduct;
 pub mod prod;
 
 /// Taken in a list of nodes and edges and prints a minimum coloring and returns a dict
-/// representing the graph
+/// representing the graph 
 #[pyfunction]
 fn bf_chromo_coloring(nodes: Vec<usize>, edges: Vec<(usize, usize)>) -> PyResult<HashMap<usize, Vec<usize>>> {
     let mut graph: UnGraphMap<usize, usize> = GraphMap::default();
