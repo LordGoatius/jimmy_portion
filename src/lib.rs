@@ -1,4 +1,4 @@
-use std::collections::HashMap;
+use std::collections::BTreeMap;
 use itertools::Itertools;
 use permutator::Combination;
 use petgraph::prelude::*;
@@ -11,7 +11,7 @@ pub mod prod;
 /// Taken in a list of nodes and edges and prints a minimum coloring and returns a dict
 /// representing the graph 
 #[pyfunction]
-fn bf_chromo_coloring(nodes: Vec<usize>, edges: Vec<(usize, usize)>) -> PyResult<HashMap<usize, usize>> {
+fn bf_chromo_coloring(nodes: Vec<usize>, edges: Vec<(usize, usize)>) -> PyResult<BTreeMap<usize, usize>> {
     let mut graph: UnGraphMap<usize, usize> = GraphMap::default();
     for node in nodes {
         graph.add_node(node);
@@ -21,7 +21,7 @@ fn bf_chromo_coloring(nodes: Vec<usize>, edges: Vec<(usize, usize)>) -> PyResult
         graph.add_edge(i, j, 1);
     }
 
-    //let mut map: HashMap<usize, Vec<usize>> = HashMap::default();
+    //let mut map: BTreeMap<usize, Vec<usize>> = BTreeMap::default();
 
     //for node in graph.nodes() {
     //    let neighbors: Vec<usize> = graph.neighbors(node).collect();
@@ -31,7 +31,7 @@ fn bf_chromo_coloring(nodes: Vec<usize>, edges: Vec<(usize, usize)>) -> PyResult
     let coloring = find_valid_coloring(&graph);
     println!("Valid Chromatic Coloring: {:?}", coloring);
 
-    let mut map: HashMap<usize, usize> = HashMap::default();
+    let mut map: BTreeMap<usize, usize> = BTreeMap::default();
 
     for (i, color) in coloring.iter().enumerate() {
         map.insert(i as usize, *color);
@@ -40,11 +40,62 @@ fn bf_chromo_coloring(nodes: Vec<usize>, edges: Vec<(usize, usize)>) -> PyResult
     Ok(map)
 }
 
+#[pyfunction]
+fn greedy_coloring(nodes: Vec<usize>, edges: Vec<(usize, usize)>) -> PyResult<BTreeMap<usize, usize>> {
+    let mut graph: UnGraphMap<usize, usize> = GraphMap::default();
+    for node in nodes {
+        graph.add_node(node);
+    }
+
+    for (i, j) in edges {
+        graph.add_edge(i, j, 1);
+    }
+
+    let greedy_coloring = find_greedy_coloring(&graph);
+    println!("Valid Greedy Coloring: {:?}", greedy_coloring);
+
+    Ok(greedy_coloring)
+}
+
 // A Python module implemented in Rust.
 #[pymodule]
 fn jimmy_portion(_py: Python, m: &PyModule) -> PyResult<()> {
     m.add_function(wrap_pyfunction!(bf_chromo_coloring, m)?)?;
+    m.add_function(wrap_pyfunction!(greedy_coloring, m)?)?;
     Ok(())
+}
+
+fn find_greedy_coloring(graph: &UnGraphMap<usize, usize>) -> BTreeMap<usize, usize> {
+    let mut order: Vec<(usize, usize)> = graph.nodes().enumerate().map(|(i, j)| (i, graph.neighbors(j).count()) ).collect_vec();
+    order.sort_by(|(_, order), (_, order_1)| order_1.cmp(order));
+    let order = order.iter().map(|(node, _)| node);
+
+    let mut coloring: BTreeMap<usize, usize> = BTreeMap::new();
+    let mut color: usize = 0;
+    let mut colors: Vec<usize> = Vec::new();
+
+    for i in order {
+        if color == 0 {
+            coloring.insert(*i, color);
+            colors.push(color);
+            color += 1;
+        } else {
+            let mut insert_max = true;
+            let invalid_colors = graph.neighbors(*i).map(|node| if coloring.contains_key(&node) { Some(coloring[&node]) } else { None }).flatten().collect_vec();
+            for j in 0..color {
+                if !invalid_colors.contains(&j) {
+                    coloring.insert(*i, j);
+                    insert_max = false
+                }
+            }
+            if insert_max {
+                coloring.insert(*i, color);
+                color += 1;
+            }
+        }
+    }
+
+    coloring
 }
 
 fn find_max_clique_num(graph: &UnGraphMap<usize, usize>) -> usize {
