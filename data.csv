@@ -1,0 +1,973 @@
+Algo, Node Num, Edge Num, Time
+Brute Force, 1, 1, 0.0
+Greedy, 1, 1, 0.0
+RLF, 1, 1, 0.0
+Brute Force, 1, 2, 0.0
+Greedy, 1, 2, 0.0
+RLF, 1, 2, 0.0
+Brute Force, 1, 3, 0.0
+Greedy, 1, 3, 0.0
+RLF, 1, 3, 0.0
+Brute Force, 1, 4, 0.0
+Greedy, 1, 4, 0.0
+RLF, 1, 4, 0.0
+Brute Force, 1, 5, 0.0
+Greedy, 1, 5, 0.0
+RLF, 1, 5, 0.0
+Brute Force, 1, 6, 0.0
+Greedy, 1, 6, 0.0
+RLF, 1, 6, 0.0
+Brute Force, 1, 7, 0.0
+Greedy, 1, 7, 0.0
+RLF, 1, 7, 0.0
+Brute Force, 1, 8, 0.0
+Greedy, 1, 8, 0.0
+RLF, 1, 8, 0.0
+Brute Force, 1, 9, 0.0
+Greedy, 1, 9, 0.0
+RLF, 1, 9, 0.0
+Brute Force, 1, 10, 0.0
+Greedy, 1, 10, 0.0
+RLF, 1, 10, 0.0
+Brute Force, 1, 11, 0.0
+Greedy, 1, 11, 0.0
+RLF, 1, 11, 0.0
+Brute Force, 1, 12, 0.0
+Greedy, 1, 12, 0.0
+RLF, 1, 12, 0.0
+Brute Force, 1, 13, 0.0
+Greedy, 1, 13, 0.0
+RLF, 1, 13, 0.0
+Brute Force, 1, 14, 0.0
+Greedy, 1, 14, 0.0
+RLF, 1, 14, 0.0
+Brute Force, 1, 15, 0.0
+Greedy, 1, 15, 0.0
+RLF, 1, 15, 0.0
+Brute Force, 1, 16, 0.0
+Greedy, 1, 16, 0.0
+RLF, 1, 16, 0.0
+Brute Force, 1, 17, 0.0
+Greedy, 1, 17, 0.0
+RLF, 1, 17, 0.0
+Brute Force, 1, 18, 0.0
+Greedy, 1, 18, 0.0
+RLF, 1, 18, 0.0
+Brute Force, 1, 19, 0.0
+Greedy, 1, 19, 0.0
+RLF, 1, 19, 0.0
+Brute Force, 1, 20, 0.0
+Greedy, 1, 20, 0.0
+RLF, 1, 20, 0.0
+Brute Force, 1, 21, 0.0
+Greedy, 1, 21, 0.0
+RLF, 1, 21, 0.0
+Brute Force, 1, 22, 0.0
+Greedy, 1, 22, 0.0
+RLF, 1, 22, 0.0
+Brute Force, 1, 23, 0.0
+Greedy, 1, 23, 0.0
+RLF, 1, 23, 0.0
+Brute Force, 1, 24, 0.0
+Greedy, 1, 24, 0.0
+RLF, 1, 24, 0.0
+Brute Force, 1, 25, 0.0
+Greedy, 1, 25, 0.0
+RLF, 1, 25, 0.0
+Brute Force, 1, 26, 0.0
+Greedy, 1, 26, 0.0
+RLF, 1, 26, 0.0
+Brute Force, 1, 27, 0.0
+Greedy, 1, 27, 0.0
+RLF, 1, 27, 0.0
+Brute Force, 1, 28, 0.0
+Greedy, 1, 28, 0.0
+RLF, 1, 28, 0.0
+Brute Force, 1, 29, 0.0
+Greedy, 1, 29, 0.0
+RLF, 1, 29, 0.0
+Brute Force, 1, 30, 0.0
+Greedy, 1, 30, 0.0
+RLF, 1, 30, 0.0
+Brute Force, 1, 31, 0.0
+Greedy, 1, 31, 0.0
+RLF, 1, 31, 0.0
+Brute Force, 1, 32, 0.0
+Greedy, 1, 32, 0.0
+RLF, 1, 32, 0.0
+Brute Force, 1, 33, 0.0
+Greedy, 1, 33, 0.0
+RLF, 1, 33, 0.0
+Brute Force, 1, 34, 0.0
+Greedy, 1, 34, 0.0
+RLF, 1, 34, 0.0
+Brute Force, 1, 35, 0.0
+Greedy, 1, 35, 0.0
+RLF, 1, 35, 0.0
+Brute Force, 1, 36, 0.0
+Greedy, 1, 36, 0.0
+RLF, 1, 36, 0.0
+Brute Force, 2, 1, 1.2364e-05
+Greedy, 2, 1, 4.421e-06
+RLF, 2, 1, 7.778e-06
+Brute Force, 2, 2, 0.0
+Greedy, 2, 2, 0.0
+RLF, 2, 2, 0.0
+Brute Force, 2, 3, 0.0
+Greedy, 2, 3, 0.0
+RLF, 2, 3, 0.0
+Brute Force, 2, 4, 0.0
+Greedy, 2, 4, 0.0
+RLF, 2, 4, 0.0
+Brute Force, 2, 5, 0.0
+Greedy, 2, 5, 0.0
+RLF, 2, 5, 0.0
+Brute Force, 2, 6, 0.0
+Greedy, 2, 6, 0.0
+RLF, 2, 6, 0.0
+Brute Force, 2, 7, 0.0
+Greedy, 2, 7, 0.0
+RLF, 2, 7, 0.0
+Brute Force, 2, 8, 0.0
+Greedy, 2, 8, 0.0
+RLF, 2, 8, 0.0
+Brute Force, 2, 9, 0.0
+Greedy, 2, 9, 0.0
+RLF, 2, 9, 0.0
+Brute Force, 2, 10, 0.0
+Greedy, 2, 10, 0.0
+RLF, 2, 10, 0.0
+Brute Force, 2, 11, 0.0
+Greedy, 2, 11, 0.0
+RLF, 2, 11, 0.0
+Brute Force, 2, 12, 0.0
+Greedy, 2, 12, 0.0
+RLF, 2, 12, 0.0
+Brute Force, 2, 13, 0.0
+Greedy, 2, 13, 0.0
+RLF, 2, 13, 0.0
+Brute Force, 2, 14, 0.0
+Greedy, 2, 14, 0.0
+RLF, 2, 14, 0.0
+Brute Force, 2, 15, 0.0
+Greedy, 2, 15, 0.0
+RLF, 2, 15, 0.0
+Brute Force, 2, 16, 0.0
+Greedy, 2, 16, 0.0
+RLF, 2, 16, 0.0
+Brute Force, 2, 17, 0.0
+Greedy, 2, 17, 0.0
+RLF, 2, 17, 0.0
+Brute Force, 2, 18, 0.0
+Greedy, 2, 18, 0.0
+RLF, 2, 18, 0.0
+Brute Force, 2, 19, 0.0
+Greedy, 2, 19, 0.0
+RLF, 2, 19, 0.0
+Brute Force, 2, 20, 0.0
+Greedy, 2, 20, 0.0
+RLF, 2, 20, 0.0
+Brute Force, 2, 21, 0.0
+Greedy, 2, 21, 0.0
+RLF, 2, 21, 0.0
+Brute Force, 2, 22, 0.0
+Greedy, 2, 22, 0.0
+RLF, 2, 22, 0.0
+Brute Force, 2, 23, 0.0
+Greedy, 2, 23, 0.0
+RLF, 2, 23, 0.0
+Brute Force, 2, 24, 0.0
+Greedy, 2, 24, 0.0
+RLF, 2, 24, 0.0
+Brute Force, 2, 25, 0.0
+Greedy, 2, 25, 0.0
+RLF, 2, 25, 0.0
+Brute Force, 2, 26, 0.0
+Greedy, 2, 26, 0.0
+RLF, 2, 26, 0.0
+Brute Force, 2, 27, 0.0
+Greedy, 2, 27, 0.0
+RLF, 2, 27, 0.0
+Brute Force, 2, 28, 0.0
+Greedy, 2, 28, 0.0
+RLF, 2, 28, 0.0
+Brute Force, 2, 29, 0.0
+Greedy, 2, 29, 0.0
+RLF, 2, 29, 0.0
+Brute Force, 2, 30, 0.0
+Greedy, 2, 30, 0.0
+RLF, 2, 30, 0.0
+Brute Force, 2, 31, 0.0
+Greedy, 2, 31, 0.0
+RLF, 2, 31, 0.0
+Brute Force, 2, 32, 0.0
+Greedy, 2, 32, 0.0
+RLF, 2, 32, 0.0
+Brute Force, 2, 33, 0.0
+Greedy, 2, 33, 0.0
+RLF, 2, 33, 0.0
+Brute Force, 2, 34, 0.0
+Greedy, 2, 34, 0.0
+RLF, 2, 34, 0.0
+Brute Force, 2, 35, 0.0
+Greedy, 2, 35, 0.0
+RLF, 2, 35, 0.0
+Brute Force, 2, 36, 0.0
+Greedy, 2, 36, 0.0
+RLF, 2, 36, 0.0
+Brute Force, 3, 1, 9.312e-06
+Greedy, 3, 1, 5.144e-06
+RLF, 3, 1, 8.411e-06
+Brute Force, 3, 2, 1.3573e-05
+Greedy, 3, 2, 5.435e-06
+RLF, 3, 2, 9.597e-06
+Brute Force, 3, 3, 2.5418e-05
+Greedy, 3, 3, 7.633e-06
+RLF, 3, 3, 1.0988e-05
+Brute Force, 3, 4, 0.0
+Greedy, 3, 4, 0.0
+RLF, 3, 4, 0.0
+Brute Force, 3, 5, 0.0
+Greedy, 3, 5, 0.0
+RLF, 3, 5, 0.0
+Brute Force, 3, 6, 0.0
+Greedy, 3, 6, 0.0
+RLF, 3, 6, 0.0
+Brute Force, 3, 7, 0.0
+Greedy, 3, 7, 0.0
+RLF, 3, 7, 0.0
+Brute Force, 3, 8, 0.0
+Greedy, 3, 8, 0.0
+RLF, 3, 8, 0.0
+Brute Force, 3, 9, 0.0
+Greedy, 3, 9, 0.0
+RLF, 3, 9, 0.0
+Brute Force, 3, 10, 0.0
+Greedy, 3, 10, 0.0
+RLF, 3, 10, 0.0
+Brute Force, 3, 11, 0.0
+Greedy, 3, 11, 0.0
+RLF, 3, 11, 0.0
+Brute Force, 3, 12, 0.0
+Greedy, 3, 12, 0.0
+RLF, 3, 12, 0.0
+Brute Force, 3, 13, 0.0
+Greedy, 3, 13, 0.0
+RLF, 3, 13, 0.0
+Brute Force, 3, 14, 0.0
+Greedy, 3, 14, 0.0
+RLF, 3, 14, 0.0
+Brute Force, 3, 15, 0.0
+Greedy, 3, 15, 0.0
+RLF, 3, 15, 0.0
+Brute Force, 3, 16, 0.0
+Greedy, 3, 16, 0.0
+RLF, 3, 16, 0.0
+Brute Force, 3, 17, 0.0
+Greedy, 3, 17, 0.0
+RLF, 3, 17, 0.0
+Brute Force, 3, 18, 0.0
+Greedy, 3, 18, 0.0
+RLF, 3, 18, 0.0
+Brute Force, 3, 19, 0.0
+Greedy, 3, 19, 0.0
+RLF, 3, 19, 0.0
+Brute Force, 3, 20, 0.0
+Greedy, 3, 20, 0.0
+RLF, 3, 20, 0.0
+Brute Force, 3, 21, 0.0
+Greedy, 3, 21, 0.0
+RLF, 3, 21, 0.0
+Brute Force, 3, 22, 0.0
+Greedy, 3, 22, 0.0
+RLF, 3, 22, 0.0
+Brute Force, 3, 23, 0.0
+Greedy, 3, 23, 0.0
+RLF, 3, 23, 0.0
+Brute Force, 3, 24, 0.0
+Greedy, 3, 24, 0.0
+RLF, 3, 24, 0.0
+Brute Force, 3, 25, 0.0
+Greedy, 3, 25, 0.0
+RLF, 3, 25, 0.0
+Brute Force, 3, 26, 0.0
+Greedy, 3, 26, 0.0
+RLF, 3, 26, 0.0
+Brute Force, 3, 27, 0.0
+Greedy, 3, 27, 0.0
+RLF, 3, 27, 0.0
+Brute Force, 3, 28, 0.0
+Greedy, 3, 28, 0.0
+RLF, 3, 28, 0.0
+Brute Force, 3, 29, 0.0
+Greedy, 3, 29, 0.0
+RLF, 3, 29, 0.0
+Brute Force, 3, 30, 0.0
+Greedy, 3, 30, 0.0
+RLF, 3, 30, 0.0
+Brute Force, 3, 31, 0.0
+Greedy, 3, 31, 0.0
+RLF, 3, 31, 0.0
+Brute Force, 3, 32, 0.0
+Greedy, 3, 32, 0.0
+RLF, 3, 32, 0.0
+Brute Force, 3, 33, 0.0
+Greedy, 3, 33, 0.0
+RLF, 3, 33, 0.0
+Brute Force, 3, 34, 0.0
+Greedy, 3, 34, 0.0
+RLF, 3, 34, 0.0
+Brute Force, 3, 35, 0.0
+Greedy, 3, 35, 0.0
+RLF, 3, 35, 0.0
+Brute Force, 3, 36, 0.0
+Greedy, 3, 36, 0.0
+RLF, 3, 36, 0.0
+Brute Force, 4, 1, 1.0697e-05
+Greedy, 4, 1, 6.546e-06
+RLF, 4, 1, 9.895e-06
+Brute Force, 4, 2, 1.1316e-05
+Greedy, 4, 2, 7.148e-06
+RLF, 4, 2, 1.0915e-05
+Brute Force, 4, 3, 2.3725e-05
+Greedy, 4, 3, 7.541e-06
+RLF, 4, 3, 1.2797e-05
+Brute Force, 4, 4, 3.107e-05
+Greedy, 4, 4, 9.22e-06
+RLF, 4, 4, 1.4421e-05
+Brute Force, 4, 5, 3.526e-05
+Greedy, 4, 5, 1.0088e-05
+RLF, 4, 5, 1.5862e-05
+Brute Force, 4, 6, 5.1182e-05
+Greedy, 4, 6, 1.0962e-05
+RLF, 4, 6, 1.7165e-05
+Brute Force, 4, 7, 0.0
+Greedy, 4, 7, 0.0
+RLF, 4, 7, 0.0
+Brute Force, 4, 8, 0.0
+Greedy, 4, 8, 0.0
+RLF, 4, 8, 0.0
+Brute Force, 4, 9, 0.0
+Greedy, 4, 9, 0.0
+RLF, 4, 9, 0.0
+Brute Force, 4, 10, 0.0
+Greedy, 4, 10, 0.0
+RLF, 4, 10, 0.0
+Brute Force, 4, 11, 0.0
+Greedy, 4, 11, 0.0
+RLF, 4, 11, 0.0
+Brute Force, 4, 12, 0.0
+Greedy, 4, 12, 0.0
+RLF, 4, 12, 0.0
+Brute Force, 4, 13, 0.0
+Greedy, 4, 13, 0.0
+RLF, 4, 13, 0.0
+Brute Force, 4, 14, 0.0
+Greedy, 4, 14, 0.0
+RLF, 4, 14, 0.0
+Brute Force, 4, 15, 0.0
+Greedy, 4, 15, 0.0
+RLF, 4, 15, 0.0
+Brute Force, 4, 16, 0.0
+Greedy, 4, 16, 0.0
+RLF, 4, 16, 0.0
+Brute Force, 4, 17, 0.0
+Greedy, 4, 17, 0.0
+RLF, 4, 17, 0.0
+Brute Force, 4, 18, 0.0
+Greedy, 4, 18, 0.0
+RLF, 4, 18, 0.0
+Brute Force, 4, 19, 0.0
+Greedy, 4, 19, 0.0
+RLF, 4, 19, 0.0
+Brute Force, 4, 20, 0.0
+Greedy, 4, 20, 0.0
+RLF, 4, 20, 0.0
+Brute Force, 4, 21, 0.0
+Greedy, 4, 21, 0.0
+RLF, 4, 21, 0.0
+Brute Force, 4, 22, 0.0
+Greedy, 4, 22, 0.0
+RLF, 4, 22, 0.0
+Brute Force, 4, 23, 0.0
+Greedy, 4, 23, 0.0
+RLF, 4, 23, 0.0
+Brute Force, 4, 24, 0.0
+Greedy, 4, 24, 0.0
+RLF, 4, 24, 0.0
+Brute Force, 4, 25, 0.0
+Greedy, 4, 25, 0.0
+RLF, 4, 25, 0.0
+Brute Force, 4, 26, 0.0
+Greedy, 4, 26, 0.0
+RLF, 4, 26, 0.0
+Brute Force, 4, 27, 0.0
+Greedy, 4, 27, 0.0
+RLF, 4, 27, 0.0
+Brute Force, 4, 28, 0.0
+Greedy, 4, 28, 0.0
+RLF, 4, 28, 0.0
+Brute Force, 4, 29, 0.0
+Greedy, 4, 29, 0.0
+RLF, 4, 29, 0.0
+Brute Force, 4, 30, 0.0
+Greedy, 4, 30, 0.0
+RLF, 4, 30, 0.0
+Brute Force, 4, 31, 0.0
+Greedy, 4, 31, 0.0
+RLF, 4, 31, 0.0
+Brute Force, 4, 32, 0.0
+Greedy, 4, 32, 0.0
+RLF, 4, 32, 0.0
+Brute Force, 4, 33, 0.0
+Greedy, 4, 33, 0.0
+RLF, 4, 33, 0.0
+Brute Force, 4, 34, 0.0
+Greedy, 4, 34, 0.0
+RLF, 4, 34, 0.0
+Brute Force, 4, 35, 0.0
+Greedy, 4, 35, 0.0
+RLF, 4, 35, 0.0
+Brute Force, 4, 36, 0.0
+Greedy, 4, 36, 0.0
+RLF, 4, 36, 0.0
+Brute Force, 5, 1, 1.2181e-05
+Greedy, 5, 1, 7.556e-06
+RLF, 5, 1, 1.1936e-05
+Brute Force, 5, 2, 1.4207e-05
+Greedy, 5, 2, 8.416e-06
+RLF, 5, 2, 1.2621e-05
+Brute Force, 5, 3, 3.7193e-05
+Greedy, 5, 3, 8.952e-06
+RLF, 5, 3, 1.4106e-05
+Brute Force, 5, 4, 4.5719e-05
+Greedy, 5, 4, 1.0708e-05
+RLF, 5, 4, 1.6034e-05
+Brute Force, 5, 5, 0.000126968
+Greedy, 5, 5, 1.2544e-05
+RLF, 5, 5, 1.8926e-05
+Brute Force, 5, 6, 6.8074e-05
+Greedy, 5, 6, 1.2563e-05
+RLF, 5, 6, 1.8939e-05
+Brute Force, 5, 7, 9.2414e-05
+Greedy, 5, 7, 1.3163e-05
+RLF, 5, 7, 1.9892e-05
+Brute Force, 5, 8, 9.6278e-05
+Greedy, 5, 8, 1.4528e-05
+RLF, 5, 8, 2.2427e-05
+Brute Force, 5, 9, 0.00012433
+Greedy, 5, 9, 1.5176e-05
+RLF, 5, 9, 2.3623e-05
+Brute Force, 5, 10, 9.8665e-05
+Greedy, 5, 10, 1.6303e-05
+RLF, 5, 10, 2.5277e-05
+Brute Force, 5, 11, 0.0
+Greedy, 5, 11, 0.0
+RLF, 5, 11, 0.0
+Brute Force, 5, 12, 0.0
+Greedy, 5, 12, 0.0
+RLF, 5, 12, 0.0
+Brute Force, 5, 13, 0.0
+Greedy, 5, 13, 0.0
+RLF, 5, 13, 0.0
+Brute Force, 5, 14, 0.0
+Greedy, 5, 14, 0.0
+RLF, 5, 14, 0.0
+Brute Force, 5, 15, 0.0
+Greedy, 5, 15, 0.0
+RLF, 5, 15, 0.0
+Brute Force, 5, 16, 0.0
+Greedy, 5, 16, 0.0
+RLF, 5, 16, 0.0
+Brute Force, 5, 17, 0.0
+Greedy, 5, 17, 0.0
+RLF, 5, 17, 0.0
+Brute Force, 5, 18, 0.0
+Greedy, 5, 18, 0.0
+RLF, 5, 18, 0.0
+Brute Force, 5, 19, 0.0
+Greedy, 5, 19, 0.0
+RLF, 5, 19, 0.0
+Brute Force, 5, 20, 0.0
+Greedy, 5, 20, 0.0
+RLF, 5, 20, 0.0
+Brute Force, 5, 21, 0.0
+Greedy, 5, 21, 0.0
+RLF, 5, 21, 0.0
+Brute Force, 5, 22, 0.0
+Greedy, 5, 22, 0.0
+RLF, 5, 22, 0.0
+Brute Force, 5, 23, 0.0
+Greedy, 5, 23, 0.0
+RLF, 5, 23, 0.0
+Brute Force, 5, 24, 0.0
+Greedy, 5, 24, 0.0
+RLF, 5, 24, 0.0
+Brute Force, 5, 25, 0.0
+Greedy, 5, 25, 0.0
+RLF, 5, 25, 0.0
+Brute Force, 5, 26, 0.0
+Greedy, 5, 26, 0.0
+RLF, 5, 26, 0.0
+Brute Force, 5, 27, 0.0
+Greedy, 5, 27, 0.0
+RLF, 5, 27, 0.0
+Brute Force, 5, 28, 0.0
+Greedy, 5, 28, 0.0
+RLF, 5, 28, 0.0
+Brute Force, 5, 29, 0.0
+Greedy, 5, 29, 0.0
+RLF, 5, 29, 0.0
+Brute Force, 5, 30, 0.0
+Greedy, 5, 30, 0.0
+RLF, 5, 30, 0.0
+Brute Force, 5, 31, 0.0
+Greedy, 5, 31, 0.0
+RLF, 5, 31, 0.0
+Brute Force, 5, 32, 0.0
+Greedy, 5, 32, 0.0
+RLF, 5, 32, 0.0
+Brute Force, 5, 33, 0.0
+Greedy, 5, 33, 0.0
+RLF, 5, 33, 0.0
+Brute Force, 5, 34, 0.0
+Greedy, 5, 34, 0.0
+RLF, 5, 34, 0.0
+Brute Force, 5, 35, 0.0
+Greedy, 5, 35, 0.0
+RLF, 5, 35, 0.0
+Brute Force, 5, 36, 0.0
+Greedy, 5, 36, 0.0
+RLF, 5, 36, 0.0
+Brute Force, 6, 1, 1.3576e-05
+Greedy, 6, 1, 8.469e-06
+RLF, 6, 1, 1.3226e-05
+Brute Force, 6, 2, 5.0131e-05
+Greedy, 6, 2, 9.538e-06
+RLF, 6, 2, 1.4367e-05
+Brute Force, 6, 3, 5.7928e-05
+Greedy, 6, 3, 1.0438e-05
+RLF, 6, 3, 1.6119e-05
+Brute Force, 6, 4, 2.9031e-05
+Greedy, 6, 4, 1.1374e-05
+RLF, 6, 4, 1.7308e-05
+Brute Force, 6, 5, 8.9696e-05
+Greedy, 6, 5, 1.2496e-05
+RLF, 6, 5, 1.9382e-05
+Brute Force, 6, 6, 7.2185e-05
+Greedy, 6, 6, 1.2924e-05
+RLF, 6, 6, 1.9385e-05
+Brute Force, 6, 7, 6.6553e-05
+Greedy, 6, 7, 1.4336e-05
+RLF, 6, 7, 2.1605e-05
+Brute Force, 6, 8, 7.6044e-05
+Greedy, 6, 8, 1.5638e-05
+RLF, 6, 8, 2.3335e-05
+Brute Force, 6, 9, 0.00015367
+Greedy, 6, 9, 1.6523e-05
+RLF, 6, 9, 2.5156e-05
+Brute Force, 6, 10, 0.000316785
+Greedy, 6, 10, 1.7547e-05
+RLF, 6, 10, 2.6647e-05
+Brute Force, 6, 11, 0.00030984
+Greedy, 6, 11, 1.8476e-05
+RLF, 6, 11, 2.7319e-05
+Brute Force, 6, 12, 0.000281687
+Greedy, 6, 12, 1.9042e-05
+RLF, 6, 12, 2.8886e-05
+Brute Force, 6, 13, 0.00085554
+Greedy, 6, 13, 1.9608e-05
+RLF, 6, 13, 3.092e-05
+Brute Force, 6, 14, 0.000244259
+Greedy, 6, 14, 2.0617e-05
+RLF, 6, 14, 3.2512e-05
+Brute Force, 6, 15, 0.000852155
+Greedy, 6, 15, 2.2623e-05
+RLF, 6, 15, 3.5222e-05
+Brute Force, 6, 16, 0.0
+Greedy, 6, 16, 0.0
+RLF, 6, 16, 0.0
+Brute Force, 6, 17, 0.0
+Greedy, 6, 17, 0.0
+RLF, 6, 17, 0.0
+Brute Force, 6, 18, 0.0
+Greedy, 6, 18, 0.0
+RLF, 6, 18, 0.0
+Brute Force, 6, 19, 0.0
+Greedy, 6, 19, 0.0
+RLF, 6, 19, 0.0
+Brute Force, 6, 20, 0.0
+Greedy, 6, 20, 0.0
+RLF, 6, 20, 0.0
+Brute Force, 6, 21, 0.0
+Greedy, 6, 21, 0.0
+RLF, 6, 21, 0.0
+Brute Force, 6, 22, 0.0
+Greedy, 6, 22, 0.0
+RLF, 6, 22, 0.0
+Brute Force, 6, 23, 0.0
+Greedy, 6, 23, 0.0
+RLF, 6, 23, 0.0
+Brute Force, 6, 24, 0.0
+Greedy, 6, 24, 0.0
+RLF, 6, 24, 0.0
+Brute Force, 6, 25, 0.0
+Greedy, 6, 25, 0.0
+RLF, 6, 25, 0.0
+Brute Force, 6, 26, 0.0
+Greedy, 6, 26, 0.0
+RLF, 6, 26, 0.0
+Brute Force, 6, 27, 0.0
+Greedy, 6, 27, 0.0
+RLF, 6, 27, 0.0
+Brute Force, 6, 28, 0.0
+Greedy, 6, 28, 0.0
+RLF, 6, 28, 0.0
+Brute Force, 6, 29, 0.0
+Greedy, 6, 29, 0.0
+RLF, 6, 29, 0.0
+Brute Force, 6, 30, 0.0
+Greedy, 6, 30, 0.0
+RLF, 6, 30, 0.0
+Brute Force, 6, 31, 0.0
+Greedy, 6, 31, 0.0
+RLF, 6, 31, 0.0
+Brute Force, 6, 32, 0.0
+Greedy, 6, 32, 0.0
+RLF, 6, 32, 0.0
+Brute Force, 6, 33, 0.0
+Greedy, 6, 33, 0.0
+RLF, 6, 33, 0.0
+Brute Force, 6, 34, 0.0
+Greedy, 6, 34, 0.0
+RLF, 6, 34, 0.0
+Brute Force, 6, 35, 0.0
+Greedy, 6, 35, 0.0
+RLF, 6, 35, 0.0
+Brute Force, 6, 36, 0.0
+Greedy, 6, 36, 0.0
+RLF, 6, 36, 0.0
+Brute Force, 7, 1, 1.5009e-05
+Greedy, 7, 1, 9.597e-06
+RLF, 7, 1, 1.4254e-05
+Brute Force, 7, 2, 1.7261e-05
+Greedy, 7, 2, 1.0373e-05
+RLF, 7, 2, 1.5856e-05
+Brute Force, 7, 3, 3.8267e-05
+Greedy, 7, 3, 1.1435e-05
+RLF, 7, 3, 1.6892e-05
+Brute Force, 7, 4, 5.692e-05
+Greedy, 7, 4, 1.3058e-05
+RLF, 7, 4, 1.9169e-05
+Brute Force, 7, 5, 5.5088e-05
+Greedy, 7, 5, 1.3556e-05
+RLF, 7, 5, 2.0095e-05
+Brute Force, 7, 6, 4.1092e-05
+Greedy, 7, 6, 1.3902e-05
+RLF, 7, 6, 2.1403e-05
+Brute Force, 7, 7, 8.7414e-05
+Greedy, 7, 7, 1.5331e-05
+RLF, 7, 7, 2.2784e-05
+Brute Force, 7, 8, 0.000153666
+Greedy, 7, 8, 1.7725e-05
+RLF, 7, 8, 2.5116e-05
+Brute Force, 7, 9, 0.00064666
+Greedy, 7, 9, 1.8624e-05
+RLF, 7, 9, 2.9404e-05
+Brute Force, 7, 10, 0.000660419
+Greedy, 7, 10, 1.8751e-05
+RLF, 7, 10, 2.7779e-05
+Brute Force, 7, 11, 0.000726278
+Greedy, 7, 11, 2.1211e-05
+RLF, 7, 11, 2.9576e-05
+Brute Force, 7, 12, 0.000584232
+Greedy, 7, 12, 2.0822e-05
+RLF, 7, 12, 3.0401e-05
+Brute Force, 7, 13, 0.000831422
+Greedy, 7, 13, 2.1065e-05
+RLF, 7, 13, 3.203e-05
+Brute Force, 7, 14, 0.000606853
+Greedy, 7, 14, 2.1462e-05
+RLF, 7, 14, 3.2788e-05
+Brute Force, 7, 15, 0.000902557
+Greedy, 7, 15, 2.4748e-05
+RLF, 7, 15, 3.6722e-05
+Brute Force, 7, 16, 0.003576375
+Greedy, 7, 16, 2.4907e-05
+RLF, 7, 16, 3.7141e-05
+Brute Force, 7, 17, 0.007145312
+Greedy, 7, 17, 2.6638e-05
+RLF, 7, 17, 3.9254e-05
+Brute Force, 7, 18, 0.000883746
+Greedy, 7, 18, 2.6766e-05
+RLF, 7, 18, 4.0436e-05
+Brute Force, 7, 19, 0.000909944
+Greedy, 7, 19, 2.7526e-05
+RLF, 7, 19, 4.1956e-05
+Brute Force, 7, 20, 0.009425332
+Greedy, 7, 20, 2.8914e-05
+RLF, 7, 20, 4.2756e-05
+Brute Force, 7, 21, 0.002957586
+Greedy, 7, 21, 2.9165e-05
+RLF, 7, 21, 4.3939e-05
+Brute Force, 7, 22, 0.0
+Greedy, 7, 22, 0.0
+RLF, 7, 22, 0.0
+Brute Force, 7, 23, 0.0
+Greedy, 7, 23, 0.0
+RLF, 7, 23, 0.0
+Brute Force, 7, 24, 0.0
+Greedy, 7, 24, 0.0
+RLF, 7, 24, 0.0
+Brute Force, 7, 25, 0.0
+Greedy, 7, 25, 0.0
+RLF, 7, 25, 0.0
+Brute Force, 7, 26, 0.0
+Greedy, 7, 26, 0.0
+RLF, 7, 26, 0.0
+Brute Force, 7, 27, 0.0
+Greedy, 7, 27, 0.0
+RLF, 7, 27, 0.0
+Brute Force, 7, 28, 0.0
+Greedy, 7, 28, 0.0
+RLF, 7, 28, 0.0
+Brute Force, 7, 29, 0.0
+Greedy, 7, 29, 0.0
+RLF, 7, 29, 0.0
+Brute Force, 7, 30, 0.0
+Greedy, 7, 30, 0.0
+RLF, 7, 30, 0.0
+Brute Force, 7, 31, 0.0
+Greedy, 7, 31, 0.0
+RLF, 7, 31, 0.0
+Brute Force, 7, 32, 0.0
+Greedy, 7, 32, 0.0
+RLF, 7, 32, 0.0
+Brute Force, 7, 33, 0.0
+Greedy, 7, 33, 0.0
+RLF, 7, 33, 0.0
+Brute Force, 7, 34, 0.0
+Greedy, 7, 34, 0.0
+RLF, 7, 34, 0.0
+Brute Force, 7, 35, 0.0
+Greedy, 7, 35, 0.0
+RLF, 7, 35, 0.0
+Brute Force, 7, 36, 0.0
+Greedy, 7, 36, 0.0
+RLF, 7, 36, 0.0
+Brute Force, 8, 1, 1.7789e-05
+Greedy, 8, 1, 1.1992e-05
+RLF, 8, 1, 1.6618e-05
+Brute Force, 8, 2, 1.9847e-05
+Greedy, 8, 2, 1.254e-05
+RLF, 8, 2, 1.8232e-05
+Brute Force, 8, 3, 0.00024104
+Greedy, 8, 3, 1.3456e-05
+RLF, 8, 3, 1.9355e-05
+Brute Force, 8, 4, 4.3002e-05
+Greedy, 8, 4, 1.4647e-05
+RLF, 8, 4, 2.1176e-05
+Brute Force, 8, 5, 0.00025998
+Greedy, 8, 5, 1.617e-05
+RLF, 8, 5, 2.3086e-05
+Brute Force, 8, 6, 0.000350707
+Greedy, 8, 6, 1.6506e-05
+RLF, 8, 6, 2.4412e-05
+Brute Force, 8, 7, 5.5286e-05
+Greedy, 8, 7, 1.694e-05
+RLF, 8, 7, 2.5553e-05
+Brute Force, 8, 8, 0.000327435
+Greedy, 8, 8, 1.9548e-05
+RLF, 8, 8, 2.8306e-05
+Brute Force, 8, 9, 0.000826634
+Greedy, 8, 9, 2.0971e-05
+RLF, 8, 9, 2.965e-05
+Brute Force, 8, 10, 0.001429623
+Greedy, 8, 10, 2.0817e-05
+RLF, 8, 10, 3.0357e-05
+Brute Force, 8, 11, 0.000717305
+Greedy, 8, 11, 2.1345e-05
+RLF, 8, 11, 3.161e-05
+Brute Force, 8, 12, 0.000321899
+Greedy, 8, 12, 2.264e-05
+RLF, 8, 12, 3.3573e-05
+Brute Force, 8, 13, 0.001927896
+Greedy, 8, 13, 2.3969e-05
+RLF, 8, 13, 3.4028e-05
+Brute Force, 8, 14, 0.002284631
+Greedy, 8, 14, 2.4694e-05
+RLF, 8, 14, 3.5464e-05
+Brute Force, 8, 15, 0.001854335
+Greedy, 8, 15, 2.6594e-05
+RLF, 8, 15, 3.8519e-05
+Brute Force, 8, 16, 0.000470097
+Greedy, 8, 16, 2.6714e-05
+RLF, 8, 16, 4.0266e-05
+Brute Force, 8, 17, 0.003283167
+Greedy, 8, 17, 2.794e-05
+RLF, 8, 17, 4.039e-05
+Brute Force, 8, 18, 0.000667879
+Greedy, 8, 18, 2.9117e-05
+RLF, 8, 18, 4.2077e-05
+Brute Force, 8, 19, 0.003688369
+Greedy, 8, 19, 3.0533e-05
+RLF, 8, 19, 4.3473e-05
+Brute Force, 8, 20, 0.003142737
+Greedy, 8, 20, 3.0861e-05
+RLF, 8, 20, 4.5325e-05
+Brute Force, 8, 21, 0.002523049
+Greedy, 8, 21, 3.2223e-05
+RLF, 8, 21, 4.7386e-05
+Brute Force, 8, 22, 0.04297067
+Greedy, 8, 22, 3.3995e-05
+RLF, 8, 22, 4.8141e-05
+Brute Force, 8, 23, 0.034168215
+Greedy, 8, 23, 3.4765e-05
+RLF, 8, 23, 5.1078e-05
+Brute Force, 8, 24, 0.011556499
+Greedy, 8, 24, 3.3915e-05
+RLF, 8, 24, 5.1529e-05
+Brute Force, 8, 25, 0.053712537
+Greedy, 8, 25, 3.7952e-05
+RLF, 8, 25, 5.6151e-05
+Brute Force, 8, 26, 0.187875984
+Greedy, 8, 26, 3.7218e-05
+RLF, 8, 26, 5.429e-05
+Brute Force, 8, 27, 0.153738927
+Greedy, 8, 27, 4.0402e-05
+RLF, 8, 27, 5.9237e-05
+Brute Force, 8, 28, 0.048977892
+Greedy, 8, 28, 3.9389e-05
+RLF, 8, 28, 5.8676e-05
+Brute Force, 8, 29, 0.0
+Greedy, 8, 29, 0.0
+RLF, 8, 29, 0.0
+Brute Force, 8, 30, 0.0
+Greedy, 8, 30, 0.0
+RLF, 8, 30, 0.0
+Brute Force, 8, 31, 0.0
+Greedy, 8, 31, 0.0
+RLF, 8, 31, 0.0
+Brute Force, 8, 32, 0.0
+Greedy, 8, 32, 0.0
+RLF, 8, 32, 0.0
+Brute Force, 8, 33, 0.0
+Greedy, 8, 33, 0.0
+RLF, 8, 33, 0.0
+Brute Force, 8, 34, 0.0
+Greedy, 8, 34, 0.0
+RLF, 8, 34, 0.0
+Brute Force, 8, 35, 0.0
+Greedy, 8, 35, 0.0
+RLF, 8, 35, 0.0
+Brute Force, 8, 36, 0.0
+Greedy, 8, 36, 0.0
+RLF, 8, 36, 0.0
+Brute Force, 9, 1, 2.0067e-05
+Greedy, 9, 1, 1.3471e-05
+RLF, 9, 1, 1.9678e-05
+Brute Force, 9, 2, 2.0679e-05
+Greedy, 9, 2, 1.498e-05
+RLF, 9, 2, 2.1945e-05
+Brute Force, 9, 3, 0.000185066
+Greedy, 9, 3, 1.4987e-05
+RLF, 9, 3, 2.1519e-05
+Brute Force, 9, 4, 3.0044e-05
+Greedy, 9, 4, 1.7602e-05
+RLF, 9, 4, 2.4164e-05
+Brute Force, 9, 5, 0.000353711
+Greedy, 9, 5, 1.7451e-05
+RLF, 9, 5, 2.5231e-05
+Brute Force, 9, 6, 0.000379554
+Greedy, 9, 6, 2.1462e-05
+RLF, 9, 6, 2.866e-05
+Brute Force, 9, 7, 8.8173e-05
+Greedy, 9, 7, 2.1813e-05
+RLF, 9, 7, 2.8179e-05
+Brute Force, 9, 8, 0.000156509
+Greedy, 9, 8, 2.184e-05
+RLF, 9, 8, 3.1243e-05
+Brute Force, 9, 9, 0.000210393
+Greedy, 9, 9, 2.3335e-05
+RLF, 9, 9, 3.2842e-05
+Brute Force, 9, 10, 0.007901171
+Greedy, 9, 10, 2.4432e-05
+RLF, 9, 10, 3.3894e-05
+Brute Force, 9, 11, 0.002632748
+Greedy, 9, 11, 2.4071e-05
+RLF, 9, 11, 3.4639e-05
+Brute Force, 9, 12, 0.0008249
+Greedy, 9, 12, 2.556e-05
+RLF, 9, 12, 3.6695e-05
+Brute Force, 9, 13, 0.000213787
+Greedy, 9, 13, 2.5167e-05
+RLF, 9, 13, 3.833e-05
+Brute Force, 9, 14, 0.017524717
+Greedy, 9, 14, 2.6573e-05
+RLF, 9, 14, 3.8671e-05
+Brute Force, 9, 15, 0.003474494
+Greedy, 9, 15, 2.9847e-05
+RLF, 9, 15, 4.2164e-05
+Brute Force, 9, 16, 0.000864923
+Greedy, 9, 16, 2.9351e-05
+RLF, 9, 16, 4.22e-05
+Brute Force, 9, 17, 0.002243744
+Greedy, 9, 17, 3.3656e-05
+RLF, 9, 17, 4.4428e-05
+Brute Force, 9, 18, 0.038497239
+Greedy, 9, 18, 3.2344e-05
+RLF, 9, 18, 4.9935e-05
+Brute Force, 9, 19, 0.004720186
+Greedy, 9, 19, 3.2907e-05
+RLF, 9, 19, 4.8095e-05
+Brute Force, 9, 20, 0.067768718
+Greedy, 9, 20, 3.4135e-05
+RLF, 9, 20, 4.953e-05
+Brute Force, 9, 21, 0.007120183
+Greedy, 9, 21, 3.6719e-05
+RLF, 9, 21, 5.3075e-05
+Brute Force, 9, 22, 0.042199219
+Greedy, 9, 22, 3.7131e-05
+RLF, 9, 22, 5.267e-05
+Brute Force, 9, 23, 0.039454867
+Greedy, 9, 23, 3.5979e-05
+RLF, 9, 23, 5.2404e-05
+Brute Force, 9, 24, 0.048004304
+Greedy, 9, 24, 3.745e-05
+RLF, 9, 24, 5.4198e-05
+Brute Force, 9, 25, 0.059829862
+Greedy, 9, 25, 4.1441e-05
+RLF, 9, 25, 6.0668e-05
+Brute Force, 9, 26, 0.052362004
+Greedy, 9, 26, 3.8911e-05
+RLF, 9, 26, 5.699e-05
+Brute Force, 9, 27, 0.298950092
+Greedy, 9, 27, 4.3096e-05
+RLF, 9, 27, 6.813e-05
+Brute Force, 9, 28, 0.012148814
+Greedy, 9, 28, 3.9928e-05
+RLF, 9, 28, 5.9618e-05
+Brute Force, 9, 29, 0.29057225
+Greedy, 9, 29, 4.6632e-05
+RLF, 9, 29, 6.8291e-05
+Brute Force, 9, 30, 0.981768129
+Greedy, 9, 30, 5.0695e-05
+RLF, 9, 30, 7.1109e-05
+Brute Force, 9, 31, 0.014825268
+Greedy, 9, 31, 4.6653e-05
+RLF, 9, 31, 6.7992e-05
+Brute Force, 9, 32, 1.034006629
+Greedy, 9, 32, 5.318e-05
+RLF, 9, 32, 7.209e-05
+Brute Force, 9, 33, 1.017889709
+Greedy, 9, 33, 5.1981e-05
+RLF, 9, 33, 7.6557e-05
+Brute Force, 9, 34, 0.75230554
+Greedy, 9, 34, 5.1958e-05
+RLF, 9, 34, 7.4349e-05
+Brute Force, 9, 35, 0.233608647
+Greedy, 9, 35, 5.1153e-05
+RLF, 9, 35, 7.5377e-05
+Brute Force, 9, 36, 0.962232597
+Greedy, 9, 36, 5.5114e-05
+RLF, 9, 36, 8.2845e-05

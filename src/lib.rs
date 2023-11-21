@@ -1,15 +1,16 @@
-use std::collections::BTreeMap;
-use itertools::Itertools;
+use std::{collections::{BTreeMap, HashSet}, time::Instant};
+use itertools::{Itertools, iproduct};
 use permutator::Combination;
 use petgraph::prelude::*;
 use pyo3::prelude::*;
+use rand::Rng;
 
 use crate::prod::CartesianProduct;
 
 pub mod prod;
 
 /// Taken in a list of nodes and edges and prints a minimum coloring and returns a dict
-/// representing the graph 
+/// representing the coloring
 #[pyfunction]
 fn bf_chromo_coloring(nodes: Vec<usize>, edges: Vec<(usize, usize)>) -> PyResult<BTreeMap<usize, usize>> {
     let mut graph: UnGraphMap<usize, usize> = GraphMap::default();
@@ -21,15 +22,7 @@ fn bf_chromo_coloring(nodes: Vec<usize>, edges: Vec<(usize, usize)>) -> PyResult
         graph.add_edge(i, j, 1);
     }
 
-    //let mut map: BTreeMap<usize, Vec<usize>> = BTreeMap::default();
-
-    //for node in graph.nodes() {
-    //    let neighbors: Vec<usize> = graph.neighbors(node).collect();
-    //    map.insert(node, neighbors);
-    //}
-
     let coloring = find_valid_coloring(&graph);
-    println!("Valid Chromatic Coloring: {:?}", coloring);
 
     let mut map: BTreeMap<usize, usize> = BTreeMap::default();
 
@@ -40,6 +33,8 @@ fn bf_chromo_coloring(nodes: Vec<usize>, edges: Vec<(usize, usize)>) -> PyResult
     Ok(map)
 }
 
+/// Taken in a list of nodes and edges and prints a greedy coloring and returns a dict
+/// representing the coloring
 #[pyfunction]
 fn greedy_coloring(nodes: Vec<usize>, edges: Vec<(usize, usize)>) -> PyResult<BTreeMap<usize, usize>> {
     let mut graph: UnGraphMap<usize, usize> = GraphMap::default();
@@ -52,9 +47,93 @@ fn greedy_coloring(nodes: Vec<usize>, edges: Vec<(usize, usize)>) -> PyResult<BT
     }
 
     let greedy_coloring = find_greedy_coloring(&graph);
-    println!("Valid Greedy Coloring: {:?}", greedy_coloring);
 
     Ok(greedy_coloring)
+}
+
+/// Taken in a list of nodes and edges and prints a Recursive Largest First coloring and returns a dict
+/// representing the coloring
+#[pyfunction]
+fn recursive_largest_first(nodes: Vec<usize>, edges: Vec<(usize, usize)>) -> PyResult<BTreeMap<usize, usize>> {
+    let mut graph: UnGraphMap<usize, usize> = GraphMap::default();
+    for node in nodes {
+        graph.add_node(node);
+    }
+
+    for (i, j) in edges {
+        graph.add_edge(i, j, 1);
+    }
+
+    let greedy_coloring = find_rlf(&graph);
+
+    Ok(greedy_coloring)
+}
+
+/// A test of greedy, RLF, and Brute Force runtime, iterating over the range of the cartestian
+/// product of the number of nodes to test and the number of edges to test
+/// Returns a List of tuples, where each tuple is (algo, nodes, edges, runtime)
+/// (0 represents brute force, 1 represents greedy, 2 represents RLF)
+#[pyfunction]
+fn test(nodes: usize, edges: usize) -> Vec<(usize, usize, usize, f64)> {
+    let mut tests: Vec<(usize, usize, usize, f64)> = Vec::new();
+
+    for (node_amount, edge_amount) in iproduct!(1..=nodes, 1..=edges) {
+        if !(edge_amount > (node_amount)*(node_amount - 1) / 2) {
+            let mut graph: UnGraphMap<usize, usize> = UnGraphMap::default();
+
+            for i in 0..node_amount {
+                graph.add_node(i);
+            }
+
+            for _ in 0..edge_amount {
+                add_random_edge(&mut graph);
+            }
+
+            let node_vec = graph.nodes().collect_vec();
+            let edge_vec = graph.all_edges().map(|(edge_1, edge_2, _)| (edge_1, edge_2)).collect_vec();
+
+            let now_bf = Instant::now();
+            let _ = bf_chromo_coloring(node_vec, edge_vec);
+            let time_bf = now_bf.elapsed();
+
+
+            let node_vec = graph.nodes().collect_vec();
+            let edge_vec = graph.all_edges().map(|(edge_1, edge_2, _)| (edge_1, edge_2)).collect_vec();
+
+            let now_greedy = Instant::now();
+            let _ = greedy_coloring(node_vec, edge_vec);
+            let time_greedy = now_greedy.elapsed();
+
+
+            let node_vec = graph.nodes().collect_vec();
+            let edge_vec = graph.all_edges().map(|(edge_1, edge_2, _)| (edge_1, edge_2)).collect_vec();
+
+            let now_rlf = Instant::now();
+            let _ = recursive_largest_first(node_vec, edge_vec);
+            let time_rlf = now_rlf.elapsed();
+
+
+            tests.push((0, node_amount, edge_amount, time_bf.as_secs_f64()));
+            tests.push((1, node_amount, edge_amount, time_greedy.as_secs_f64()));
+            tests.push((2, node_amount, edge_amount, time_rlf.as_secs_f64()));
+        }
+    }
+    tests
+}
+
+fn add_random_edge(graph: &mut UnGraphMap<usize, usize>) {
+    let mut rng = rand::thread_rng();
+
+    // Generate random node indices
+    let node_count = graph.node_count();
+    let source_index = rng.gen_range(0..node_count);
+    let target_index = rng.gen_range(0..node_count);
+
+    if !graph.contains_edge(source_index, target_index) {
+        graph.add_edge(source_index, target_index, 1);
+    } else {
+        add_random_edge(graph);
+    }
 }
 
 // A Python module implemented in Rust.
@@ -62,7 +141,47 @@ fn greedy_coloring(nodes: Vec<usize>, edges: Vec<(usize, usize)>) -> PyResult<BT
 fn jimmy_portion(_py: Python, m: &PyModule) -> PyResult<()> {
     m.add_function(wrap_pyfunction!(bf_chromo_coloring, m)?)?;
     m.add_function(wrap_pyfunction!(greedy_coloring, m)?)?;
+    m.add_function(wrap_pyfunction!(recursive_largest_first, m)?)?;
+    m.add_function(wrap_pyfunction!(test, m)?)?;
     Ok(())
+}
+
+fn find_rlf(graph: &UnGraphMap<usize, usize>) -> BTreeMap<usize, usize> {
+    let mut color: usize = 0;
+    let mut coloring: BTreeMap<usize, usize> = BTreeMap::new();
+    let mut cloned = graph.clone();
+
+    while cloned.node_count() != 0 {
+        let mis = find_minimal_independent_set(&cloned);
+        for node in mis {
+            coloring.insert(node, color);
+            cloned.remove_node(node);
+        }
+        color += 1;
+    }
+
+    coloring
+}
+
+fn find_minimal_independent_set(graph: &UnGraphMap<usize, usize>) -> HashSet<usize> {
+    let mut mis: HashSet<usize> = HashSet::new();
+    let mut avail_nodes: Vec<usize> = graph.nodes().collect();
+
+    while !avail_nodes.is_empty() {
+        mis.insert(avail_nodes[0]);
+
+        for neighbor in graph.neighbors(avail_nodes[0]) {
+            if avail_nodes.contains(&neighbor) {
+                avail_nodes.retain(|&x| x != neighbor);
+            }
+        }
+
+        if !avail_nodes.is_empty() {
+            avail_nodes.remove(0);
+        }     
+    }
+
+    mis
 }
 
 fn find_greedy_coloring(graph: &UnGraphMap<usize, usize>) -> BTreeMap<usize, usize> {
